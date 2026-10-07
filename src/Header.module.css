@@ -1,0 +1,27 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.todoTop{
+    display: flex;
+    gap:10px ;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0 20px;
+}
+
+.item{
+    width: 100%;
+    padding: 2px 4px;
+    border: 1px solid red;
+    border-radius: 5px;
+    
+}
